@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class = "calculator">
+        <form>
+            <input type="text" id="userInput" placeholder="0">
+        </form>
+        <div class="buttons">
+            <!-- for the function dataset -->
+            <button type="button" class="btn btn-yellow" onclick ="press('*')">*</button>
+            <button type="button" class="btn btn-yellow" onclick ="press('/')">/</button>
+            <button type="button" class="btn btn-yellow" onclick ="press('-')">-</button>
+            <button type="button" class="btn btn-yellow" onclick ="press('+')">+</button>
+
+            <!-- for the number dataset -->
+            <button type="button" class="btn btn-grey" onclick ="press(9)">9</button>
+            <button type="button" class="btn btn-grey" onclick ="press(8)">8</button>
+            <button type="button" class="btn btn-grey" onclick ="press(7)">7</button>
+            <button type="button" class="btn btn-grey" onclick ="press(6)">6</button>
+            <button type="button" class="btn btn-grey" onclick ="press(5)">5</button>
+            <button type="button" class="btn btn-grey" onclick ="press(4)">4</button>
+            <button type="button" class="btn btn-grey" onclick ="press(3)">3</button>
+            <button type="button" class="btn btn-grey" onclick ="press(2)">2</button>
+            <button type="button" class="btn btn-grey" onclick ="press(1)">1</button>
+            <button type="button" class="btn btn-grey" onclick ="press(0)">0</button>
+
+            <button type="button" class="btn btn-grey" onclick="press('.')">.</button>
+            <button type="button" class="btn btn-equal" onclick="equal('=')" >=</button>
+            <button type="button" class="btn btn-clear" onclick="erase('C')">C</button>
+
+
+            
+
+            
+
+        </div>
+    </section>
+
+
+
+<script src="script.js">
+</script>
+</body>
+</html>
